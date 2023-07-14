@@ -73,7 +73,7 @@ def main(args):
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description='Process some integers.')
+    parser = argparse.ArgumentParser(description='Dataset generator.')
     parser.add_argument('--int_piece_sets', help='piece sets for internet directory', default="assets/internet-artifacts/piece", type=str)
     parser.add_argument('--int_boards',help='boards for internet directory', default="assets/internet-artifacts/board", type=str)
     parser.add_argument('--int_count',help='number of internet boards to generate', default=10, type=int)
