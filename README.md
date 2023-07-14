@@ -16,7 +16,7 @@ Forsyth-Edwards Notation (FEN) is a standard notation for describing a particula
 
 Fenify is designed to take an image of a chess board and output the FEN string representing the board's current state. This can be useful for quickly setting up games to specific positions, analyzing gameplay, and more.
 
-Fenify is particularlly targeted images from chess books on which other open source solutions can under perform. 
+Fenify is particularlly targeting images from chess books on which other open source solutions can under perform. 
 
 ## Accuracy
 
@@ -24,7 +24,8 @@ Fenify is very accurate with a 99.8% per square accuracy on the test set.  The e
 
 ![Fenify](assets/Examples.png)
 
-![Fenify](assets/Accuracy.png)
+![Fenify](assets/Squares.png)
+![Fenify](assets/Pieces.png)
 
 
 ## Methodology
